@@ -19,7 +19,6 @@
   "repository": "https://github.com/erxes/erxes",
   "logo": "https://raw.githubusercontent.com/erxes/erxes/master/ui/public/images/logo-dark.png",
   "success_url": "/",
-  "image": "erxes/erxes-api:develop",
   "env": {
     "PORT": {
       "description": "A port number that erxes api will be running on",
@@ -33,7 +32,7 @@
   "addons": [],
   "buildpacks": [
     {
-      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+      "url": "https://github.com/batnasan/heroku-buildpack-subdir"
     }
   ]
 }

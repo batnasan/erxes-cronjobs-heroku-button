@@ -1,0 +1,39 @@
+{
+  "name": "Erxes CronJobs on Heroku",
+  "description": "Erxes CronJobs",
+  "keywords": [
+    "Marketing",
+    "sales",
+    "customer engagement",
+    "customer support",
+    "CRM",
+    "node",
+    "express",
+    "react",
+    "typescript",
+    "webpack",
+    "graphql",
+    "apollo"
+  ],
+  "website": "https://erxes.io",
+  "repository": "https://github.com/erxes/erxes",
+  "logo": "https://raw.githubusercontent.com/erxes/erxes/master/ui/public/images/logo-dark.png",
+  "success_url": "/",
+  "image": "erxes/erxes-api:develop",
+  "env": {
+    "PORT": {
+      "description": "A port number that erxes api will be running on",
+      "value": "3600"
+    },
+    "MONGO_URL": {
+      "description": "Erxes API MONGO_URL",
+      "value": "MONGO_URL"
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ]
+}

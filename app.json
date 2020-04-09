@@ -20,7 +20,7 @@
   "logo": "https://raw.githubusercontent.com/erxes/erxes/master/ui/public/images/logo-dark.png",
   "success_url": "/",
   "env": {
-    "PORT": {
+    "PORT_CRONS": {
       "description": "A port number that erxes api will be running on",
       "value": "3600"
     },

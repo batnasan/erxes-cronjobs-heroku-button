@@ -31,6 +31,18 @@
     "RABBITMQ_HOST": {
       "description": "Erxes API RABBITMQ_HOST",
       "value": "copy it from erxes-api RABBITMQ_HOST"
+    },
+    "REDIS_HOST": {
+      "description": "REDIS_HOST",
+      "value": "REDIS_HOST"
+    },
+    "REDIS_PORT": {
+      "description": "REDIS_PORT",
+      "value": "28229"
+    },
+    "REDIS_PASSWORD": {
+      "description": "REDIS_PASSWORD",
+      "value": "REDIS_PASSWORD"
     }
   },
   "addons": [],

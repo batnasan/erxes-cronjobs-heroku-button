@@ -31,6 +31,10 @@
     "RABBITMQ_HOST": {
       "description": "Erxes API RABBITMQ_HOST",
       "value": "copy it from erxes-api RABBITMQ_HOST"
+    },
+    "PROCESS_NAME": {
+      "description": "crons process name (don't change it)",
+      "value": "crons"
     }
   },
   "addons": [],
